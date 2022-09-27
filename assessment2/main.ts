@@ -6,7 +6,7 @@ function sumOfMultiple(startNum: number, limit: number): number {
             numbersArr.push(i);
         }
     }
-    const result = numbersArr.reduce((x, y) => x+y, 0);
+    const result: number = numbersArr.reduce((x, y) => x+y, 0);
     console.debug(result);
     return result;
 }
