@@ -1,7 +1,14 @@
 {
-    "compilerOptions": {},
+    "compilerOptions": {
+//      "target": "es2017",
+//      "module": "es2022"
+    },
     "include": [
-      "**/*.test.ts"
+      "**/*.test.ts",
+     // "main.ts"
     ],
-  }
+//  "ts-node": {
+//    "esm": true
+//  }
+}
   
